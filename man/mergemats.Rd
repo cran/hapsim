@@ -13,7 +13,7 @@
   \item{mat2}{Second square matrix of same dimensions}
 }
 
-\details{}
+%\details{}
 
 \value{
  The resulting matrix has upper triangular matrix from \code{mat1} and lower triangular matrix from \code{mat2}

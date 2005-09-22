@@ -2,7 +2,7 @@
 function(mat, eig.tol=1.0000e-06){
     cor.mat <- covtocor(mat)
     mat <- cor.mat$mat
-    eig <- eigen(mat,sym = TRUE, EISPACK = TRUE)
+    eig <- eigen(mat, symmetric = TRUE, EISPACK = TRUE)
     D <- sort(eig$values)
     S <- eig$vectors[,order(sort(D, decreasing=TRUE ))]
     D[which(D<eig.tol)] <- eig.tol 

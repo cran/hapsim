@@ -30,6 +30,6 @@ The correlation matrix
 
 %\seealso{ ~~objects to See Also as \code{\link{~~fun~~}}, ~~~ }
 
-\examples{}
+%\examples{}
 
 \keyword{ internal }
