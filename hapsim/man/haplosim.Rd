@@ -6,7 +6,7 @@
 
 \description{Generates a random sample of haplotypes, given an haplotype object created from a data set}
 
-\usage{haplosim(n, hap, which.snp = NULL, seed = NULL, force.polym = TRUE, summary = TRUE)}
+\usage{haplosim(n, hap, which.snp = NULL, seed = NULL, force.polym = TRUE)}
 
 \arguments{
   \item{n}{Number of haplotypes to generate}
@@ -14,7 +14,6 @@
   \item{which.snp}{A vector specifying which SNPs to include} 
   \item{seed}{Seed for the random number generator}
   \item{force.polym}{if TRUE, all loci are polymorphic}
-  \item{summary}{if TRUE, additional summary statistics are returned}
 }
 
 %\details{}
@@ -29,11 +28,10 @@
   \item{mse.cor}{MSE of correlations}
 }
 
-
 \references{
 Montana, G. HapSim: a simulation tool for generating haplotype data with
-pre-specified allele frequencies and LD coefficients. 2005.
-}
+pre-specified allele frequencies and LD coefficients. Bioinformatics
+2005 21: 4309-4311}
 
 \author{ Giovanni Montana }
 

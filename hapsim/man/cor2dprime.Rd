@@ -27,8 +27,9 @@ cor2dprime(mat, probs)
 
 \references{
 Montana, G. HapSim: a simulation tool for generating haplotype data with
-pre-specified allele frequencies and LD coefficients. 2005.
+pre-specified allele frequencies and LD coefficients. Bioinformatics 2005 21: 4309-4311
 }
+
 
 \author{Giovanni Montana}
 

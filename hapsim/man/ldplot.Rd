@@ -19,10 +19,7 @@
 
 %\value{}
 
-\references{
-Montana, G. HapSim: a simulation tool for generating haplotype data with
-pre-specified allele frequencies and LD coefficients. 2005.
-}
+%\references{}
 
 \author{Giovanni Montana}
 

@@ -19,10 +19,7 @@
  The resulting matrix has upper triangular matrix from \code{mat1} and lower triangular matrix from \code{mat2}
 }
 
-\references{
-Montana, G. HapSim: a simulation tool for generating haplotype data with
-pre-specified allele frequencies and LD coefficients. 2005.
-}
+\references{}
 
 \author{Giovanni Montana}
 
