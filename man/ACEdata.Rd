@@ -15,7 +15,7 @@
 
 %\details{}
 
-\source{ \url{http://htsnp.stanford.edu/PCA/ACE.html} }
+% \source{ \url{http://htsnp.stanford.edu/PCA/ACE.html} }
 
 \references{
 Montana, G. HapSim: a simulation tool for generating haplotype data with

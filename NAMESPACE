@@ -1,4 +1,4 @@
-useDynLib(hapsim)
+useDynLib(hapsim, .registration = TRUE)
 
 # Export all names
 exportPattern(".")
@@ -7,3 +7,11 @@ exportPattern(".")
 import(
   MASS
 )
+
+
+  importFrom("grDevices", "heat.colors")
+  importFrom("graphics", "axis", "box", "image", "layout", "lcm", "par")
+  importFrom("stats", "cor", "qnorm")
+
+
+

@@ -163,3 +163,36 @@ void covariance(int *nr, double *cormat, double *probs, double *quants, double *
 		   }
     return;
 }
+
+
+
+
+
+
+#include <stdlib.h> // for NULL
+#include <R_ext/Rdynload.h>
+
+#define CALLDEF(name, n)  {#name, (DL_FUNC) &name, n}
+
+static const R_CallMethodDef R_CallDef[] = {
+   CALLDEF(covariance, 5),
+   {NULL, NULL, 0}
+};
+
+void R_init_splines(DllInfo *dll)
+{
+    R_registerRoutines(dll, NULL, R_CallDef, NULL, NULL);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
